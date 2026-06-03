@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vimalkumar M — CSE Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-SzlrxWriC3X0aolK7XpGi3gHbeIRVbZ+vK5Y9e5N6aDY4e0Ywla2G1qEVWgb7R3cIg4Q9rJkzN1E8LY5gB6B4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-mark">VM</span>
+      <div>
+        <span class="brand-name">Vimalkumar M</span>
+        <span class="brand-role">CSE Student – Pre-Final Year</span>
+      </div>
+    </div>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-sun light-icon"></i>
+        <i class="fa-solid fa-moon dark-icon"></i>
+      </button>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link" data-index="01">Home</a></li>
+      <li><a href="#about" class="nav-link" data-index="02">About</a></li>
+      <li><a href="#skills" class="nav-link" data-index="03">Skills</a></li>
+      <li><a href="#projects" class="nav-link" data-index="04">Projects</a></li>
+      <li><a href="#education" class="nav-link" data-index="05">Education</a></li>
+      <li><a href="#contact" class="nav-link" data-index="06">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="home" class="section hero-section">
+      <div class="hero-grid">
+        <div class="hero-copy" data-reveal="fade-up" data-delay="0.1">
+          <span class="eyebrow">Hello, I’m</span>
+          <h1>Vimalkumar M</h1>
+          <p class="hero-title">Pre-final year Computer Science and Engineering student</p>
+          <p class="hero-text">I am a pre-final year Computer Science and Engineering student with a strong interest in frontend development. I enjoy building responsive, user-friendly websites using HTML, CSS, and JavaScript.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects <i class="fa-solid fa-arrow-right-long"></i></a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+          <div class="hero-badges">
+            <span>Open to internships</span>
+            <span>Frontend development</span>
+            <span>Git & GitHub</span>
+          </div>
+        </div>
+        <div class="hero-card" data-reveal="fade-up" data-delay="0.2">
+          <div class="hero-avatar">
+            <img src="file:///D:/importan%20image/ph.jpg" alt="Vimalkumar M profile photo" style="width:180px; height:180px; object-fit:cover; border-radius:50%; border:4px solid rgba(245,166,35,0.25);" />
+          </div>
+          <div class="hero-card-body">
+            <p class="card-label">About Me</p>
+            <p>I continuously improve my skills through personal projects, certifications, and self-learning. I am also familiar with Git and GitHub for version control and collaboration.</p>
+            <div class="hero-stats">
+              <div><span class="stat-value">6+</span><span>Projects</span></div>
+              <div><span class="stat-value">10</span><span>Skills</span></div>
+              <div><span class="stat-value">1</span><span>Internship-ready</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-num mono">02 /</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy" data-reveal="fade-right" data-delay="0.05">
+            <p class="about-lead">I am a pre-final year Computer Science and Engineering student with a strong interest in frontend development.</p>
+            <p>I enjoy building responsive, user-friendly websites using HTML, CSS, and JavaScript. I continuously improve my abilities through personal projects, certifications, and self-study.</p>
+            <p>I am open to internships and opportunities where I can apply my skills, gain practical experience, contribute to real-world projects, and grow as a frontend developer.</p>
+            <div class="about-list">
+              <div><i class="fa-solid fa-check"></i> Responsive web design</div>
+              <div><i class="fa-solid fa-check"></i> Clean HTML and semantic structure</div>
+              <div><i class="fa-solid fa-check"></i> Interactive JavaScript interfaces</div>
+              <div><i class="fa-solid fa-check"></i> Git and GitHub collaboration</div>
+            </div>
+          </div>
+          <div class="about-cards" data-reveal="fade-left" data-delay="0.1">
+            <div class="feature-card"><span class="card-title">Learning Focus</span><p>React development, component-driven UI, and modern frontend workflows.</p></div>
+            <div class="feature-card"><span class="card-title">Project Experience</span><p>Built portfolio websites, e-learning frontends, attendance systems, and responsive landing pages.</p></div>
+            <div class="feature-card"><span class="card-title">Collaboration</span><p>Version control with Git, GitHub workflows, and clean code practices for team-ready development.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-num mono">03 /</span>
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card" data-reveal="fade-up" data-delay="0.05"><div class="skill-icon"><i class="fa-brands fa-python"></i></div><div><h3>Python</h3><div class="skill-bar"><div class="skill-fill" data-percent="82"></div></div></div><span>82%</span></article>
+          <article class="skill-card" data-reveal="fade-up" data-delay="0.1"><div class="skill-icon"><i class="fa-solid fa-c"></i></div><div><h3>C</h3><div class="skill-bar"><div class="skill-fill" data-percent="76"></div></div></div><span>76%</span></article>
+          <article class="skill-card" data-reveal="fade-up" data-delay="0.15"><div class="skill-icon"><i class="fa-brands fa-java"></i></div><div><h3>Java</h3><div class="skill-bar"><div class="skill-fill" data-percent="78"></div></div></div><span>78%</span></article>
+          <article class="skill-card" data-reveal="fade-up" data-delay="0.2"><div class="skill-icon"><i class="fa-brands fa-html5"></i></div><div><h3>HTML</h3><div class="skill-bar"><div class="skill-fill" data-percent="92"></div></div></div><span>92%</span></article>
+          <article class="skill-card" data-reveal="fade-up" data-delay="0.25"><div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div><div><h3>CSS</h3><div class="skill-bar"><div class="skill-fill" data-percent="88"></div></div></div><span>88%</span></article>
+          <article class="skill-card" data-reveal="fade-up" data-delay="0.3"><div class="skill-icon"><i class="fa-brands fa-js"></i></div><div><h3>JavaScript</h3><div class="skill-bar"><div class="skill-fill" data-percent="84"></div></div></div><span>84%</span></article>
+          <article class="skill-card" data-reveal="fade-up" data-delay="0.35"><div class="skill-icon"><i class="fa-solid fa-database"></i></div><div><h3>MySQL</h3><div class="skill-bar"><div class="skill-fill" data-percent="74"></div></div></div><span>74%</span></article>
+          <article class="skill-card" data-reveal="fade-up" data-delay="0.4"><div class="skill-icon"><i class="fa-brands fa-github"></i></div><div><h3>Git & GitHub</h3><div class="skill-bar"><div class="skill-fill" data-percent="86"></div></div></div><span>86%</span></article>
+          <article class="skill-card" data-reveal="fade-up" data-delay="0.45"><div class="skill-icon"><i class="fa-brands fa-react"></i></div><div><h3>React</h3><div class="skill-bar"><div class="skill-fill" data-percent="70"></div></div></div><span>Learning</span></article>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-num mono">04 /</span>
+          <h2>Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card" data-reveal="fade-up" data-delay="0.05">
+            <div class="project-header"><span class="project-badge">NLP</span><a href="https://github.com/VK-vimal123" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></div>
+            <h3>Emotion Detection from Text</h3>
+            <p>A Python-based Bi-LSTM model that detects emotion in text and provides sentiment insights through a clean interface.</p>
+            <div class="project-tags"><span>Python</span><span>Bi-LSTM</span><span>NLP</span></div>
+          </article>
+          <article class="project-card featured" data-reveal="fade-up" data-delay="0.1">
+            <div class="project-header"><span class="project-badge">Community</span><a href="https://github.com/VK-vimal123" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></div>
+            <h3>Social Learning Notes Exchange</h3>
+            <p>A collaborative platform for students to share notes, discover resources, and learn together with a polished responsive UI.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="project-card" data-reveal="fade-up" data-delay="0.15">
+            <div class="project-header"><span class="project-badge">E-Learning</span><a href="https://github.com/VK-vimal123" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></div>
+            <h3>E-Learning Frontend</h3>
+            <p>A responsive education dashboard built with modern frontend layouts to improve course discovery and student engagement.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>React</span></div>
+          </article>
+          <article class="project-card" data-reveal="fade-up" data-delay="0.2">
+            <div class="project-header"><span class="project-badge">Attendance</span><a href="https://github.com/VK-vimal123" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></div>
+            <h3>Student Attendance Management</h3>
+            <p>An attendance system designed for student records, schedule tracking, and reporting with a clean user interface.</p>
+            <div class="project-tags"><span>Java</span><span>MySQL</span><span>UI</span></div>
+          </article>
+          <article class="project-card" data-reveal="fade-up" data-delay="0.25">
+            <div class="project-header"><span class="project-badge">Portfolio</span><a href="https://github.com/VK-vimal123" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></div>
+            <h3>Portfolio Website</h3>
+            <p>A polished portfolio showcasing skills, projects, education, and contact details in a fully responsive layout.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="project-card" data-reveal="fade-up" data-delay="0.3">
+            <div class="project-header"><span class="project-badge">Food</span><a href="https://github.com/VK-vimal123" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></div>
+            <h3>Food Website</h3>
+            <p>A responsive food website with menu highlights, intuitive ordering interactions, and modern visuals for better user engagement.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+        </div>
+        <div class="projects-footer" data-reveal="fade-up" data-delay="0.35">
+          <a href="https://github.com/VK-vimal123" target="_blank" rel="noopener" class="btn btn-ghost"><i class="fa-brands fa-github"></i> View Full GitHub</a>
+        </div>
+      </div>
+    </section>
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-num mono">05 /</span>
+          <h2>Education</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item" data-reveal="fade-right" data-delay="0.05">
+            <div class="timeline-card">
+              <div class="timeline-heading"><h3>Bannari Amman Institute of Technology</h3><span>2023 – 2027</span></div>
+              <p>B.E. Computer Science and Engineering. Relevant coursework in data structures, databases, algorithms, and web technologies.</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-reveal="fade-right" data-delay="0.1">
+            <div class="timeline-card">
+              <div class="timeline-heading"><h3>SKV Matric Hr. Sec. School</h3><span>2019 – 2022</span></div>
+              <p>Completed higher secondary education with a focus on science and computer studies, building a strong foundation for engineering.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-num mono">06 /</span>
+          <h2>Contact</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-details" data-reveal="fade-right" data-delay="0.05">
+            <p class="contact-lead">Have a project, internship opportunity, or question? I am available to collaborate on real-world frontend projects and internships.</p>
+            <div class="contact-cards">
+              <a href="mailto: vimal2004825@gmail.com" class="contact-card"><div class="card-icon"><i class="fa-solid fa-envelope"></i></div><div><span>Email</span><strong>vimal2004825@gmail.com</strong></div></a>
+              <a href="tel: 9655605042" class="contact-card"><div class="card-icon"><i class="fa-solid fa-phone"></i></div><div><span>Phone</span><strong>9655605042</strong></div></a>
+              <a href="https://www.linkedin.com/in/vimalkumar-m-00b23a331/" target="_blank" rel="noopener" class="contact-card"><div class="card-icon"><i class="fa-brands fa-linkedin-in"></i></div><div><span>LinkedIn</span><strong>vimalkumar-m-00b23a331</strong></div></a>
+              <a href="https://github.com/VK-vimal123" target="_blank" rel="noopener" class="contact-card"><div class="card-icon"><i class="fa-brands fa-github"></i></div><div><span>GitHub</span><strong>VK-vimal123</strong></div></a>
+            </div>
+          </div>
+          <div class="contact-form-card" data-reveal="fade-left" data-delay="0.1">
+            <form id="contactForm" class="contact-form" novalidate>
+              <label class="form-label" for="contactName">Name</label>
+              <input id="contactName" name="name" type="text" placeholder="Your name" required />
+              <label class="form-label" for="contactEmail">Email</label>
+              <input id="contactEmail" name="email" type="email" placeholder="your@email.com" required />
+              <label class="form-label" for="contactMessage">Message</label>
+              <textarea id="contactMessage" name="message" rows="5" placeholder="Write your message" required></textarea>
+              <button type="submit" class="btn btn-primary">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+              <p class="form-status" id="formStatus"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Built with HTML, CSS, and JavaScript by <strong>Vimalkumar M</strong>.</p>
+      <div class="social-links">
+        <a href="https://github.com/VK-vimal123" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/vimalkumar-m-00b23a331/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:vimal2004825@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
