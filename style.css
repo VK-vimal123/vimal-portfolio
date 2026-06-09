@@ -813,14 +813,29 @@ strong { color: var(--clr-text); font-weight: 600; }
 }
 .footer-logo { font-size: 1rem; color: var(--clr-white); }
 .footer-copy { font-size: 0.8rem; color: var(--clr-text-muted); }
-.footer-socials { display: flex; gap: 0.75rem; }
-.footer-socials a {
-  width: 34px; height: 34px; display: flex; align-items: center; justify-content: center;
-  background: rgba(255,255,255,0.04); border: 1px solid var(--clr-border);
-  border-radius: 6px; color: var(--clr-text-muted); font-size: 0.85rem;
-  transition: all 0.2s var(--ease);
+.footer-socials {
+    display: flex;
+    gap: 20px;
 }
-.footer-socials a:hover { color: var(--clr-accent); border-color: rgba(245,166,35,0.3); }
+
+.footer-socials a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--clr-border);
+    border-radius: 10px;
+    color: var(--clr-text-muted);
+    font-size: 1.3rem;
+    transition: all 0.2s var(--ease);
+}
+
+.footer-socials a:hover {
+    color: var(--clr-accent);
+    border-color: rgba(245,166,35,0.3);
+}
 
 /* ────────────────────────────────────────
    15. BACK TO TOP
